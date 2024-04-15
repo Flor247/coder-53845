@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pavanam&display=swap');
+
+/*--------HEADER-------*/
+header p {
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 6px;
+}
+
+.navbar {
+    font-family: sans-serif;
+}
+.navbar-nav .nav-link {
+    font-size: 20px; 
+    color: black; 
+}
+
+.navbar-color {
+    background-color: rgba(253, 65, 165, 0.881)
+}
+.btn-custom {
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid rgb(8, 8, 8)
+}
+
+.grid-galeria {
+    width: 85%;
+    margin: 20px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 240px;
+    gap: 10px;
+}
+
+.grid-galeria div img {
+    width: 100%;
+    height: 95%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-2 {
+    grid-row: span 2;
+}
+
+.img-7 {
+    grid-row: span 2;
+}
+
+.img-4 {
+    grid-row: span 2;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item h3 {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.538);
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+}
+
+header img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: -60px;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.sephora {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------main------*/
+
+.nuevas div {
+    border: 2px grey solid;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.nuevas div a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.elegidos div {
+    border: 2px grey solid;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.elegidos div a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.ofertas div {
+    border: 2px grey solid;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.ofertas div a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.recompensas div {
+    border: 2px grey solid;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.recompensas div a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(-50%);
+
+}
+
+.nuevas img,
+.elegidos img,
+.ofertas img,
+.recompensas img {
+    width: 150px; /* Ancho fijo en píxeles */
+    height: 150px; /* Altura fija en píxeles */
+}
+
+.nuevas {
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.elegidos {
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.ofertas {
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.recompensas {
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    font-size: 25px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.formulario {
+    font-family: sans-serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.banner {
+    width: 100%;
+    height: 70px;
+}
+.carousel {
+    margin-top: 90px; /* Ajusta el valor del margen superior según tus necesidades */
+}
+
+.comentarios {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px;
+    padding-left: 90px;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(227, 83, 131);
+    color: white;
+    width: 36%;
+    margin-top: 35px;
+}
+
+/*------FOOTER------*/
+footer img {
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    background-color: rgba(216, 112, 147, 0.775);
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las secciones se envuelvan en varias líneas */
+}
+
+.section {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 44px;
+    font-weight: bold;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section ul li {
+    margin: 10px 0;
+}
+
+.section ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.enlaces-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 20px;
+    margin-top: 250px;
+}
+
+.enlaces-wrapper a {
+    margin-left: 10px;
+}
+
+
+/*!-----MEDIA QUERY-----*/
+
+@media screen and (max-width:900px) {
+    header p {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:780px) {
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 230px;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .img-9 {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:750px) {
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .img-9 {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .img-9 {
+        grid-column: span 2;
+    }
+}
+@media screen and (max-width:630px) {
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 160px;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .img-9 {
+        grid-column: span 2;
+    }
+}
+@media screen and (max-width:600px) {
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 150px;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .img-9 {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:570px) {
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 140px;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .img-9 {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+@media screen and (max-width:510px) {
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+@media screen and (max-width:400px) {
+ 
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+@media screen and (max-width:350px) {
+    
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+
+@media screen and (max-width: 973px) {
+    /* Estilos base para todas las tarjetas */
+    .nuevas .item,
+    .elegidos .item,
+    .ofertas .item,
+    .recompensas .item {
+        width: calc(100% / 4); /* Cada tarjeta ocupa un cuarto del ancho del contenedor */
+        box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+        padding: 10px; /* Ajusta el relleno según sea necesario */
+    }
+
+    /* Ajustar el tamaño del texto */
+    .nuevas .item h3,
+    .elegidos .item h3,
+    .ofertas .item h3,
+    .recompensas .item h3,
+    .nuevas .item p,
+    .elegidos .item p,
+    .ofertas .item p,
+    .recompensas .item p,
+    .nuevas .item a,
+    .elegidos .item a,
+    .ofertas .item a,
+    .recompensas .item a {
+        font-size: 12px; /* Reducir el tamaño del texto */
+    }
+
+    /* Redimensionar las imágenes */
+    .nuevas img,
+    .elegidos img,
+    .ofertas img,
+    .recompensas img {
+        max-width: 100%; /* Ancho máximo de las imágenes */
+        height: auto; /* Altura automática para mantener la proporción */
+    }
+
+    /* Ajustar el tamaño del botón */
+    .nuevas .item a,
+    .elegidos .item a,
+    .ofertas .item a,
+    .recompensas .item a {
+        padding: 3px 8px; /* Ajustar el relleno del botón */
+        font-size: 12px; /* Reducir el tamaño del texto del botón */
+    }
+}
+
+
+/* Media queries para ajustar las tarjetas en pantallas más pequeñas */
+@media screen and (max-width: 937px) {
+    .nuevas .item,
+    .elegidos .item,
+    .ofertas .item,
+    .recompensas .item {
+        width: calc(100% / 3); /* Cada tarjeta ocupa un tercio del ancho del contenedor */
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .nuevas .item,
+    .elegidos .item,
+    .ofertas .item,
+    .recompensas .item {
+        width: calc(100% / 2); /* Cada tarjeta ocupa la mitad del ancho del contenedor */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nuevas .item,
+    .elegidos .item,
+    .ofertas .item,
+    .recompensas .item {
+        width: 100%; /* Cada tarjeta ocupa todo el ancho del contenedor */
+        margin-right: 0; /* Eliminar margen derecho para evitar desbordamiento */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nuevas,
+    .elegidos,
+    .ofertas,
+    .recompensas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nuevas .item,
+    .elegidos .item,
+    .ofertas .item,
+    .recompensas .item {
+        width: calc(100% / 3); /* Cada tarjeta ocupa un tercio del ancho del contenedor */
+        box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+        padding: 10px; /* Ajusta el relleno según sea necesario */
+    }
+}
+@media screen and (max-width: 430px) {
+    .nuevas .item,
+    .elegidos .item,
+    .ofertas .item,
+    .recompensas .item {
+        width: 70%; /* Cada tarjeta ocupa todo el ancho del contenedor */
+        margin-right: 0; /* Eliminar margen derecho para evitar desbordamiento */
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .enlaces-wrapper {
+    justify-content: flex-end;
+    align-items: flex-end;
+      margin-top: 350px; /* Ajustar según sea necesario */
+    }
+}
+
+
+
+@media (max-width: 799px) {
+    .foot {
+    flex-direction: column;
+    }
+
+    .s {
+    width: 100%;
+    }
+
+    .enlaces-wrapper {
+    align-self: flex-start;
+    margin-top: 20px;
+    }
+}
+
+/*!--PSEUDO CLASES---*/
+
+.item a:hover {
+    background: rgb(255, 78, 187) ;
+}
+.item a:active {
+    background: rgb(200, 43, 140) ;
+}
+
+.btn-custom:hover {
+    background-color: rgba(0, 0, 0, 0.994) ;
+    color: white;
+}
