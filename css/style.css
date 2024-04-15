@@ -177,8 +177,8 @@ header img {
 .elegidos img,
 .ofertas img,
 .recompensas img {
-    width: 150px; /* Ancho fijo en píxeles */
-    height: 150px; /* Altura fija en píxeles */
+    width: 150px;
+    height: 150px; 
 }
 
 .nuevas {
@@ -245,7 +245,7 @@ h2 {
     height: 70px;
 }
 .carousel {
-    margin-top: 90px; /* Ajusta el valor del margen superior según tus necesidades */
+    margin-top: 90px; 
 }
 
 .comentarios {
@@ -278,7 +278,7 @@ footer {
 
 .s {
     display: flex;
-    flex-wrap: wrap; /* Permitir que las secciones se envuelvan en varias líneas */
+    flex-wrap: wrap; 
 }
 
 .section {
@@ -481,17 +481,16 @@ footer {
 
 
 @media screen and (max-width: 973px) {
-    /* Estilos base para todas las tarjetas */
+    
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 4); /* Cada tarjeta ocupa un cuarto del ancho del contenedor */
-        box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
-        padding: 10px; /* Ajusta el relleno según sea necesario */
+        width: calc(100% / 4); 
+        box-sizing: border-box; 
+        padding: 10px; 
     }
 
-    /* Ajustar el tamaño del texto */
     .nuevas .item h3,
     .elegidos .item h3,
     .ofertas .item h3,
@@ -504,36 +503,34 @@ footer {
     .elegidos .item a,
     .ofertas .item a,
     .recompensas .item a {
-        font-size: 12px; /* Reducir el tamaño del texto */
+        font-size: 12px; 
     }
 
-    /* Redimensionar las imágenes */
+    
     .nuevas img,
     .elegidos img,
     .ofertas img,
     .recompensas img {
-        max-width: 100%; /* Ancho máximo de las imágenes */
-        height: auto; /* Altura automática para mantener la proporción */
+        max-width: 100%; 
+        height: auto; 
     }
 
-    /* Ajustar el tamaño del botón */
     .nuevas .item a,
     .elegidos .item a,
     .ofertas .item a,
     .recompensas .item a {
-        padding: 3px 8px; /* Ajustar el relleno del botón */
-        font-size: 12px; /* Reducir el tamaño del texto del botón */
+        padding: 3px 8px; 
+        font-size: 12px; 
     }
 }
 
 
-/* Media queries para ajustar las tarjetas en pantallas más pequeñas */
 @media screen and (max-width: 937px) {
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 3); /* Cada tarjeta ocupa un tercio del ancho del contenedor */
+        width: calc(100% / 3); 
     }
 }
 
@@ -542,7 +539,7 @@ footer {
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 2); /* Cada tarjeta ocupa la mitad del ancho del contenedor */
+        width: calc(100% / 2);  
     }
 }
 
@@ -551,8 +548,8 @@ footer {
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: 100%; /* Cada tarjeta ocupa todo el ancho del contenedor */
-        margin-right: 0; /* Eliminar margen derecho para evitar desbordamiento */
+        width: 100%; 
+        margin-right: 0;  
     }
 }
 
@@ -568,9 +565,9 @@ footer {
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 3); /* Cada tarjeta ocupa un tercio del ancho del contenedor */
-        box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
-        padding: 10px; /* Ajusta el relleno según sea necesario */
+        width: calc(100% / 3);  
+        box-sizing: border-box; 
+        padding: 10px; 
     }
 }
 @media screen and (max-width: 430px) {
@@ -578,8 +575,8 @@ footer {
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: 70%; /* Cada tarjeta ocupa todo el ancho del contenedor */
-        margin-right: 0; /* Eliminar margen derecho para evitar desbordamiento */
+        width: 70%; 
+        margin-right: 0; 
     }
 }
 
@@ -587,7 +584,7 @@ footer {
     .enlaces-wrapper {
     justify-content: flex-end;
     align-items: flex-end;
-      margin-top: 350px; /* Ajustar según sea necesario */
+      margin-top: 350px; 
     }
 }
 
