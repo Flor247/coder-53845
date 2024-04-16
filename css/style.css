@@ -15,14 +15,16 @@ header p {
 .navbar {
     font-family: sans-serif;
 }
+
 .navbar-nav .nav-link {
-    font-size: 20px; 
-    color: black; 
+    font-size: 20px;
+    color: black;
 }
 
 .navbar-color {
     background-color: rgba(253, 65, 165, 0.881)
 }
+
 .btn-custom {
     color: rgb(10, 10, 10);
     background-color: rgb(255, 255, 255);
@@ -178,7 +180,7 @@ header img {
 .ofertas img,
 .recompensas img {
     width: 150px;
-    height: 150px; 
+    height: 150px;
 }
 
 .nuevas {
@@ -226,10 +228,12 @@ h2 {
     margin-top: 60px;
     margin-bottom: 20px;
 }
+
 .item h3 {
     font-size: 20px;
     margin-top: 10px;
 }
+
 .formulario {
     font-family: sans-serif;
     font-size: 17px;
@@ -244,8 +248,9 @@ h2 {
     width: 100%;
     height: 70px;
 }
+
 .carousel {
-    margin-top: 90px; 
+    margin-top: 90px;
 }
 
 .comentarios {
@@ -278,7 +283,7 @@ footer {
 
 .s {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .section {
@@ -330,16 +335,19 @@ footer {
         text-align: center;
     }
 }
+
 @media screen and (max-width:780px) {
     .grid-galeria {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 230px;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
+
     .img-9 {
         grid-column: span 2;
     }
@@ -352,10 +360,12 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 220px;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
+
     .img-9 {
         grid-column: span 2;
     }
@@ -368,28 +378,34 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 200px;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
+
     .img-9 {
         grid-column: span 2;
     }
 }
+
 @media screen and (max-width:630px) {
     .grid-galeria {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 200px;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
+
     .img-9 {
         grid-column: span 2;
     }
 }
+
 @media screen and (max-width:600px) {
 
     .grid-galeria {
@@ -397,10 +413,12 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 200px;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
+
     .img-9 {
         grid-column: span 2;
     }
@@ -413,10 +431,12 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 190px;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
+
     .img-9 {
         grid-column: span 2;
     }
@@ -428,17 +448,20 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
 }
+
 @media screen and (max-width:510px) {
 
     .grid-galeria {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
@@ -451,28 +474,33 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
 }
+
 @media screen and (max-width:400px) {
- 
+
     .grid-galeria {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
 }
+
 @media screen and (max-width:350px) {
-    
+
     .grid-galeria {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .grid-item {
         grid-column: span 1;
         grid-row: span 1;
@@ -481,14 +509,14 @@ footer {
 
 
 @media screen and (max-width: 973px) {
-    
+
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 4); 
-        box-sizing: border-box; 
-        padding: 10px; 
+        width: calc(100% / 4);
+        box-sizing: border-box;
+        padding: 10px;
     }
 
     .nuevas .item h3,
@@ -503,57 +531,61 @@ footer {
     .elegidos .item a,
     .ofertas .item a,
     .recompensas .item a {
-        font-size: 12px; 
+        font-size: 12px;
     }
 
-    
+
     .nuevas img,
     .elegidos img,
     .ofertas img,
     .recompensas img {
-        max-width: 100%; 
-        height: auto; 
+        max-width: 100%;
+        height: auto;
     }
 
     .nuevas .item a,
     .elegidos .item a,
     .ofertas .item a,
     .recompensas .item a {
-        padding: 3px 8px; 
-        font-size: 12px; 
+        padding: 3px 8px;
+        font-size: 12px;
     }
 }
 
 
 @media screen and (max-width: 937px) {
+
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 3); 
+        width: calc(100% / 3);
     }
 }
 
 @media screen and (max-width: 645px) {
+
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 2);  
+        width: calc(100% / 2);
     }
 }
 
 @media screen and (max-width: 500px) {
+
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: 100%; 
-        margin-right: 0;  
+        width: 100%;
+        margin-right: 0;
     }
 }
 
 @media screen and (max-width: 700px) {
+
     .nuevas,
     .elegidos,
     .ofertas,
@@ -561,23 +593,26 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
+
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: calc(100% / 3);  
-        box-sizing: border-box; 
-        padding: 10px; 
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 10px;
     }
 }
+
 @media screen and (max-width: 430px) {
+
     .nuevas .item,
     .elegidos .item,
     .ofertas .item,
     .recompensas .item {
-        width: 65%; 
+        width: 65%;
     }
-    
+
     .nuevas .item h3,
     .elegidos .item h3,
     .ofertas .item h3,
@@ -590,18 +625,18 @@ footer {
     .elegidos .item a,
     .ofertas .item a,
     .recompensas .item a {
-        font-size: 15px; 
+        font-size: 15px;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
     .comentarios {
-        overflow-wrap: break-word; 
-        width: 90%; 
-        max-width: 90%; 
-        margin: auto; 
-        padding: 10px; 
+        overflow-wrap: break-word;
+        width: 90%;
+        max-width: 90%;
+        margin: auto;
+        padding: 10px;
     }
 }
 
@@ -609,9 +644,9 @@ footer {
 
 @media (hover: none) and (pointer: coarse) {
     .enlaces-wrapper {
-    justify-content: flex-end;
-    align-items: flex-end;
-      margin-top: 350px; 
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 350px;
     }
 }
 
@@ -619,110 +654,110 @@ footer {
 
 @media (max-width: 799px) {
     .foot {
-    flex-direction: column;
+        flex-direction: column;
     }
 
     .s {
-    width: 100%;
+        width: 100%;
     }
 
     .enlaces-wrapper {
-    align-self: flex-start;
-    margin-top: 20px;
+        align-self: flex-start;
+        margin-top: 20px;
     }
 }
 
 /*!--PSEUDO CLASES---*/
 
 .item a:hover {
-    background: rgb(255, 78, 187) ;
+    background: rgb(255, 78, 187);
 }
+
 .item a:active {
-    background: rgb(200, 43, 140) ;
+    background: rgb(200, 43, 140);
 }
 
 .btn-custom:hover {
-    background-color: rgba(0, 0, 0, 0.994) ;
+    background-color: rgba(0, 0, 0, 0.994);
     color: white;
 }
+
 /*!--ACERCA DE SEPHORA--*/
+.nueva-pagina {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
 .nueva-pagina {
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pavanam&display=swap');
+    background-color: #000;
+    color: #fff;
+}
 
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-    }
+.nueva-pagina main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.nueva-pagina header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 
-    body {
-        background-color: #000; 
-        color: #fff; 
-    }
+.nueva-pagina main {
+    display: flex;
+    flex-direction: column;
+}
 
-    header, main, footer {
-        width: 100vw; 
-        padding: 0;
-        margin: 0;
-    }
+.nueva-pagina section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
 
-    main {
-        display: flex;
-        flex-direction: column;
-    }
+.nueva-pagina .text-container {
+    padding: 70px;
+    background-color: white;
+}
 
-    section {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px; 
-    }
+.nueva-pagina .custom-paragraph {
+    font-size: 30px;
+    font-weight: bold;
+    color: #090909;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
-    .text-container {
-        padding: 70px; 
-        background-color: white;
-    }
+.nueva-pagina .image-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
 
-    .custom-paragraph {
-        font-size: 30px;
-        font-weight: bold;
-        color: #090909; 
-        text-align: justify;
-        padding-left: 100px; 
-        padding-right: 100px; 
-    }
+.nueva-pagina .image-container img {
+    width: 100%;
+    height: auto;
+}
 
+.nueva-pagina p {
+    font-weight: bold;
+}
 
-    .image-container {
-        width: 100%;
-        overflow: hidden;
-        margin-top: 20px; 
-    }
+.nueva-pagina h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
 
-    .image-container img {
-        width: 100%;
-        height: auto;
-    }
-
-    p {
-        font-weight: bold; 
-    }
-
-    h1 {
-        color: #fff; 
-        text-align: left; 
-        font-size: 60px;
-        margin-left: 30px;
-        margin-top: 50px;
-
-    }
-
-    @media only screen and (max-width: 937px) {
-        .custom-paragraph {
-          font-size: 1.3em; 
-          line-height: 1.5; 
-          padding-left: 15px; 
-          padding-right: 15px;
-      }
+@media only screen and (max-width: 937px) {
+    .nueva-pagina .custom-paragraph {
+        font-size: 1.3em;
+        line-height: 1.5;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
