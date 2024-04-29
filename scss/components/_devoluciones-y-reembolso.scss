@@ -1,0 +1,104 @@
+body {
+    header {
+        .h1devoluciones {
+            text-align: left;
+            font-size: 40px;
+            margin-left: 30px;
+            margin-top: 50px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.881);
+        }
+
+        .parrafo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0f0e0e;
+            text-align: justify;
+            padding-left: 100px;
+            padding-right: 100px;
+            background-color: lightpink;
+            margin: 30px;
+        }
+
+        .pdevoluciones {
+            font-size: 18px;
+            text-align: center;
+            margin: 20px;
+            margin-left: 80px;
+            margin-right: 80px;
+            color: black;
+            background-color: rgb(255, 255, 255);
+            white-space: pre-line;
+        }
+    }
+
+    main {
+        .carousel {
+            margin-top: 90px;
+        }
+    }
+
+    footer {
+        background-color: rgba(216, 112, 147, 0.775);
+    
+        nav.foot {
+            display: flex;
+            justify-content: space-between;
+    
+            .section-column {
+                .s {
+                    display: flex;
+                    flex-wrap: wrap;
+    
+                    .section {
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+    
+                        h2 {
+                            font-family: sans-serif;
+                            font-size: 20px;
+                            margin-top: 44px;
+                            font-weight: bold;
+                        }
+    
+                        ul {
+                            list-style: none;
+    
+                            li {
+                                margin: 10px 0;
+    
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                    font-family: sans-serif;
+                                    font-size: 16px;
+                                    margin-left: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+    
+            .enlaces.enlaces-icons {
+                .enlaces-wrapper {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    margin: 20px;
+                    margin-top: 250px;
+    
+                    a {
+                        margin-left: 10px;
+    
+                        img {
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}    

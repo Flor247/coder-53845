@@ -50,6 +50,7 @@ header img {
     box-sizing: border-box;
 }
 
+
 /*------main------*/
 
 .grid-galeria {
@@ -667,7 +668,14 @@ footer {
         margin-top: 20px;
     }
 }
-
+@media only screen and (max-width: 937px) {
+    .nueva-pagina .custom-paragraph {
+        font-size: 1.3em;
+        line-height: 1.5;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 /*!--PSEUDO CLASES---*/
 
 .item a:hover {
@@ -688,34 +696,37 @@ footer {
     margin: 0;
     padding: 0;
     height: 100%;
-}
-
-.nueva-pagina {
     background-color: #000;
     color: #fff;
-}
-
-.nueva-pagina main {
-    width: 100%;
-    padding: 0;
-    margin: 0;
 }
 .nueva-pagina header {
     width: 100%;
     padding: 0;
     margin: 0;
 }
-
-.nueva-pagina main {
-    display: flex;
-    flex-direction: column;
+.nueva-pagina .acerca {
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
-.nueva-pagina section {
+
+.nueva-pagina .seccionm{
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
+.nueva-pagina .seccionh{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
 
 .nueva-pagina .text-container {
     padding: 70px;
@@ -740,25 +751,146 @@ footer {
 .nueva-pagina .image-container img {
     width: 100%;
     height: auto;
+    margin-left: 0px;
 }
 
 .nueva-pagina p {
     font-weight: bold;
 }
 
-.nueva-pagina h1 {
-    color: #fff;
+
+/*!--devoluciones--*/
+
+.h1devoluciones {
     text-align: left;
-    font-size: 60px;
+    font-size: 40px;
     margin-left: 30px;
     margin-top: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.881);
+    
 }
+.parrafo{font-size: 20px;
+    font-weight: bold;
+    color: #0f0e0e;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:lightpink;
+margin: 30px;}
+.pdevoluciones {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 
-@media only screen and (max-width: 937px) {
-    .nueva-pagina .custom-paragraph {
-        font-size: 1.3em;
-        line-height: 1.5;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+    color: black;
+    background-color: rgb(255, 255, 255);
+        white-space: pre-line;
+    
+    
+}
+/*!--FORMAS DE PAGO--*/
+
+.h1formas {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.881);
+    
+}
+.parraformas{font-size: 20px;
+    font-weight: bold;
+    color: #0f0e0e;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:lightpink;
+margin: 30px;}
+.pformas {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    color: black;
+    background-color: rgb(255, 255, 255);
+        white-space: pre-line;
+    
+    
+}
+/*!--SEGUIMIENTO DEL PEDIDO--*/
+
+.h1seguimiento {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.881);
+    
+}
+.parrafoseguimiento{font-size: 20px;
+    font-weight: bold;
+    color: #0f0e0e;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:lightpink;
+margin: 30px;}
+.pseguimiento {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    color: black;
+    background-color: rgb(255, 255, 255);
+        white-space: pre-line;
+    
+    
+}
+/*!--MICUENTA-*/
+
+.h1mcuenta {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.881);
+    
+}
+.parrafomcuenta{font-size: 20px;
+    font-weight: bold;
+    color: #0f0e0e;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:lightpink;
+margin: 30px;}
+.pmcuenta {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    color: black;
+    background-color: rgb(255, 255, 255);
+        white-space: pre-line;
+}
+.micuenta {  font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+        white-space: pre-line;
 }

@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pavanam&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.carousel {
+  margin-top: 100px; }
+
+.formulario {
+  display: flex;
+  justify-content: center; }
+
 /*---header---*/
 header p {
   font-size: 16px;
@@ -60,34 +73,58 @@ header section nav.navbar.navbar-expand-lg.navbar-color {
       padding: 8px;
       font-size: 18px; }
 
-.nuevas, .elegidos, .ofertas, .recompensas {
+.nuevas,
+.elegidos,
+.ofertas,
+.recompensas {
   font-family: sans-serif;
   font-size: 15px;
   display: flex;
   justify-content: center;
   flex-wrap: nowrap; }
-  .nuevas div, .elegidos div, .ofertas div, .recompensas div {
+  .nuevas div,
+  .elegidos div,
+  .ofertas div,
+  .recompensas div {
     border: 2px grey solid;
     width: 200px;
     height: 320px;
     text-align: center;
     margin: 5px;
     display: inline-block;
-    position: relative; }
-    .nuevas div a, .elegidos div a, .ofertas div a, .recompensas div a {
+    position: relative;
+    transition: 1s;
+    transition: 0,5s; }
+    .nuevas div:hover,
+    .elegidos div:hover,
+    .ofertas div:hover,
+    .recompensas div:hover {
+      transform: scale(1.02); }
+    .nuevas div a,
+    .elegidos div a,
+    .ofertas div a,
+    .recompensas div a {
       background-color: black;
       color: white;
       text-decoration: none;
       padding: 5px;
       position: absolute;
       bottom: 20px;
-      transform: translateX(-50%);
-      /* Estilos de active */ }
-      .nuevas div a:hover, .elegidos div a:hover, .ofertas div a:hover, .recompensas div a:hover {
+      transform: translateX(-50%); }
+      .nuevas div a:hover,
+      .elegidos div a:hover,
+      .ofertas div a:hover,
+      .recompensas div a:hover {
         background: #ff4ebb; }
-      .nuevas div a:active, .elegidos div a:active, .ofertas div a:active, .recompensas div a:active {
+      .nuevas div a:active,
+      .elegidos div a:active,
+      .ofertas div a:active,
+      .recompensas div a:active {
         background: #c82b8c; }
-  .nuevas img, .elegidos img, .ofertas img, .recompensas img {
+  .nuevas img,
+  .elegidos img,
+  .ofertas img,
+  .recompensas img {
     width: 150px;
     height: 150px; }
 
@@ -95,11 +132,13 @@ h3 {
   font-size: 20px;
   margin-top: 10px; }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 25px;
   margin-left: 60px;
   margin-bottom: 20px; }
-  h1:last-child, h2:last-child {
+  h1:last-child,
+  h2:last-child {
     margin-top: 60px; }
 
 .carousel {
@@ -120,8 +159,6 @@ h1, h2 {
 .formulario {
   font-family: sans-serif;
   font-size: 17px;
-  display: flex;
-  justify-content: center;
   padding: 13px;
   padding-bottom: 20px;
   margin-bottom: 50px; }
@@ -167,7 +204,358 @@ footer {
         margin-left: 10px; }
         footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a img {
           width: 35px;
-          height: 35; }
+          height: 35px; }
+
+/*!--ACERCA DE SEPHORA--*/
+.nueva-pagina {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000;
+  color: #fff; }
+  .nueva-pagina header {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .nueva-pagina header .acerca {
+      color: #fff;
+      text-align: left;
+      font-size: 60px;
+      margin-left: 30px;
+      margin-top: 50px; }
+    .nueva-pagina header .seccionh {
+      display: flex;
+      flex-direction: column; }
+      .nueva-pagina header .seccionh .image-container {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-bottom: 15px; }
+        .nueva-pagina header .seccionh .image-container img {
+          width: 100%;
+          height: auto;
+          margin-left: 0px; }
+  .nueva-pagina main {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .nueva-pagina main .seccionm {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px; }
+      .nueva-pagina main .seccionm .text-container {
+        padding: 70px;
+        background-color: white; }
+        .nueva-pagina main .seccionm .text-container .custom-paragraph {
+          font-size: 30px;
+          font-weight: bold;
+          color: #090909;
+          text-align: justify;
+          padding-left: 100px;
+          padding-right: 100px;
+          font-weight: bold; }
+      .nueva-pagina main .seccionm .image-container {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px; }
+        .nueva-pagina main .seccionm .image-container img {
+          width: 100%;
+          height: auto; }
+
+body header .h1formas {
+  text-align: left;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.881); }
+
+body header .parraformas {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0f0e0e;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: lightpink;
+  margin: 30px; }
+
+body header .pformas {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: black;
+  background-color: white;
+  white-space: pre-line; }
+
+body main .carousel {
+  margin-top: 90px; }
+
+body footer {
+  background-color: rgba(216, 112, 147, 0.775); }
+  body footer nav.foot {
+    display: flex;
+    justify-content: space-between; }
+    body footer nav.foot .section-column .s {
+      display: flex;
+      flex-wrap: wrap; }
+      body footer nav.foot .section-column .s .section {
+        margin-right: 20px;
+        margin-bottom: 20px; }
+        body footer nav.foot .section-column .s .section h2 {
+          font-family: sans-serif;
+          font-size: 20px;
+          margin-top: 44px;
+          font-weight: bold; }
+        body footer nav.foot .section-column .s .section ul {
+          list-style: none; }
+          body footer nav.foot .section-column .s .section ul li {
+            margin: 10px 0; }
+            body footer nav.foot .section-column .s .section ul li a {
+              text-decoration: none;
+              color: black;
+              font-family: sans-serif;
+              font-size: 16px;
+              margin-left: 30px; }
+    body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin: 20px;
+      margin-top: 250px; }
+      body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a {
+        margin-left: 10px; }
+        body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a img {
+          width: 35px;
+          height: 35px; }
+
+body header .h1devoluciones {
+  text-align: left;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.881); }
+
+body header .parrafo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0f0e0e;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: lightpink;
+  margin: 30px; }
+
+body header .pdevoluciones {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: black;
+  background-color: white;
+  white-space: pre-line; }
+
+body main .carousel {
+  margin-top: 90px; }
+
+body footer {
+  background-color: rgba(216, 112, 147, 0.775); }
+  body footer nav.foot {
+    display: flex;
+    justify-content: space-between; }
+    body footer nav.foot .section-column .s {
+      display: flex;
+      flex-wrap: wrap; }
+      body footer nav.foot .section-column .s .section {
+        margin-right: 20px;
+        margin-bottom: 20px; }
+        body footer nav.foot .section-column .s .section h2 {
+          font-family: sans-serif;
+          font-size: 20px;
+          margin-top: 44px;
+          font-weight: bold; }
+        body footer nav.foot .section-column .s .section ul {
+          list-style: none; }
+          body footer nav.foot .section-column .s .section ul li {
+            margin: 10px 0; }
+            body footer nav.foot .section-column .s .section ul li a {
+              text-decoration: none;
+              color: black;
+              font-family: sans-serif;
+              font-size: 16px;
+              margin-left: 30px; }
+    body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin: 20px;
+      margin-top: 250px; }
+      body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a {
+        margin-left: 10px; }
+        body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a img {
+          width: 35px;
+          height: 35px; }
+
+body header .h1seguimiento {
+  text-align: left;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.881); }
+
+body header .parrafoseguimiento {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0f0e0e;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: lightpink;
+  margin: 30px; }
+
+body header .pseguimiento {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: black;
+  background-color: white;
+  white-space: pre-line; }
+
+body main .carousel {
+  margin-top: 90px; }
+
+body footer {
+  background-color: rgba(216, 112, 147, 0.775); }
+  body footer nav.foot {
+    display: flex;
+    justify-content: space-between; }
+    body footer nav.foot .section-column .s {
+      display: flex;
+      flex-wrap: wrap; }
+      body footer nav.foot .section-column .s .section {
+        margin-right: 20px;
+        margin-bottom: 20px; }
+        body footer nav.foot .section-column .s .section h2 {
+          font-family: sans-serif;
+          font-size: 20px;
+          margin-top: 44px;
+          font-weight: bold; }
+        body footer nav.foot .section-column .s .section ul {
+          list-style: none; }
+          body footer nav.foot .section-column .s .section ul li {
+            margin: 10px 0; }
+            body footer nav.foot .section-column .s .section ul li a {
+              text-decoration: none;
+              color: black;
+              font-family: sans-serif;
+              font-size: 16px;
+              margin-left: 30px; }
+    body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin: 20px;
+      margin-top: 250px; }
+      body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a {
+        margin-left: 10px; }
+        body footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a img {
+          width: 35px;
+          height: 35px; }
+
+header .h1mcuenta {
+  text-align: left;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.881); }
+
+header .parrafomcuenta {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0f0e0e;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: lightpink;
+  margin: 30px; }
+
+header .pmcuenta {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: black;
+  background-color: white;
+  white-space: pre-line; }
+
+header .micuenta {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: black;
+  background-color: white;
+  white-space: pre-line; }
+
+header .formulario {
+  font-family: sans-serif;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  padding: 13px;
+  padding-bottom: 20px;
+  margin-bottom: 50px; }
+
+main .carousel {
+  margin-top: 90px; }
+
+footer {
+  background-color: rgba(216, 112, 147, 0.775); }
+  footer nav.foot {
+    display: flex;
+    justify-content: space-between; }
+    footer nav.foot .section-column .s {
+      display: flex;
+      flex-wrap: wrap; }
+      footer nav.foot .section-column .s .section {
+        margin-right: 20px;
+        margin-bottom: 20px; }
+        footer nav.foot .section-column .s .section h2 {
+          font-family: sans-serif;
+          font-size: 20px;
+          margin-top: 44px;
+          font-weight: bold; }
+        footer nav.foot .section-column .s .section ul {
+          list-style: none; }
+          footer nav.foot .section-column .s .section ul li {
+            margin: 10px 0; }
+            footer nav.foot .section-column .s .section ul li a {
+              text-decoration: none;
+              color: black;
+              font-family: sans-serif;
+              font-size: 16px;
+              margin-left: 30px; }
+    footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin: 20px;
+      margin-top: 250px; }
+      footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a {
+        margin-left: 10px; }
+        footer nav.foot .enlaces.enlaces-icons .enlaces-wrapper a img {
+          width: 35px;
+          height: 35px; }
 
 /*!-----MEDIA QUERY-----*/
 @media screen and (max-width: 900px) {
@@ -395,67 +783,7 @@ footer {
     align-self: flex-start;
     margin-top: 20px; } }
 
-/*!--PSEUDO CLASES---*/
-/*!--ACERCA DE SEPHORA--*/
-.nueva-pagina {
-  margin: 0;
-  padding: 0;
-  height: 100%; }
-
-.nueva-pagina {
-  background-color: #000;
-  color: #fff; }
-
-.nueva-pagina main {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-.nueva-pagina header {
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-.nueva-pagina main {
-  display: flex;
-  flex-direction: column; }
-
-.nueva-pagina section {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px; }
-
-.nueva-pagina .text-container {
-  padding: 70px;
-  background-color: white; }
-
-.nueva-pagina .custom-paragraph {
-  font-size: 30px;
-  font-weight: bold;
-  color: #090909;
-  text-align: justify;
-  padding-left: 100px;
-  padding-right: 100px; }
-
-.nueva-pagina .image-container {
-  width: 100%;
-  overflow: hidden;
-  margin-top: 20px; }
-
-.nueva-pagina .image-container img {
-  width: 100%;
-  height: auto; }
-
-.nueva-pagina p {
-  font-weight: bold; }
-
-.nueva-pagina h1 {
-  color: #fff;
-  text-align: left;
-  font-size: 60px;
-  margin-left: 30px;
-  margin-top: 50px; }
-
+/*!--Acerca de Sephora---*/
 @media only screen and (max-width: 937px) {
   .nueva-pagina .custom-paragraph {
     font-size: 1.3em;
