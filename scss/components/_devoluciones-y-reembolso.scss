@@ -1,5 +1,54 @@
 body {
     header {
+
+        section {
+            nav.navbar.navbar-expand-lg.navbar-color {
+                font-family: sans-serif;
+                background-color: $color-principal;
+
+                .container-fluid {
+                    a.navbar-brand {
+                        img {
+                            width: 190px;
+                            height: 190px;
+                            margin-bottom: -60px;
+                            margin-top: -60px;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .collapse.navbar-collapse#navbarSupportedContent {
+                        ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+                            li.nav-item {
+                                a.nav-link {
+                                    font-size: 20px;
+                                    color: black;
+                                }
+                            }
+                        }
+
+                        form.d-flex {
+
+
+                            button.btn.btn-custom {
+                                color: rgb(10, 10, 10);
+                                background-color: rgb(255, 255, 255);
+                                border-radius: 6px;
+                                padding: 6px;
+                                border: 1px solid rgb(8, 8, 8);
+
+                                &:hover {
+                                    background-color: rgba(0, 0, 0, 0.994);
+                                    color: white;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
         .h1devoluciones {
             text-align: left;
             font-size: 40px;
@@ -37,68 +86,3 @@ body {
             margin-top: 90px;
         }
     }
-
-    footer {
-        background-color: rgba(216, 112, 147, 0.775);
-    
-        nav.foot {
-            display: flex;
-            justify-content: space-between;
-    
-            .section-column {
-                .s {
-                    display: flex;
-                    flex-wrap: wrap;
-    
-                    .section {
-                        margin-right: 20px;
-                        margin-bottom: 20px;
-    
-                        h2 {
-                            font-family: sans-serif;
-                            font-size: 20px;
-                            margin-top: 44px;
-                            font-weight: bold;
-                        }
-    
-                        ul {
-                            list-style: none;
-    
-                            li {
-                                margin: 10px 0;
-    
-                                a {
-                                    text-decoration: none;
-                                    color: black;
-                                    font-family: sans-serif;
-                                    font-size: 16px;
-                                    margin-left: 30px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-    
-    
-            .enlaces.enlaces-icons {
-                .enlaces-wrapper {
-                    display: flex;
-                    justify-content: flex-end;
-                    align-items: flex-end;
-                    margin: 20px;
-                    margin-top: 250px;
-    
-                    a {
-                        margin-left: 10px;
-    
-                        img {
-                            width: 35px;
-                            height: 35px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}    

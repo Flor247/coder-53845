@@ -81,7 +81,8 @@ header section nav.navbar.navbar-expand-lg.navbar-color {
   font-size: 15px;
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  margin-bottom: 30px; }
   .nuevas div,
   .elegidos div,
   .ofertas div,
@@ -790,3 +791,120 @@ footer {
     line-height: 1.5;
     padding-left: 15px;
     padding-right: 15px; } }
+
+/*!--Maquillaje---*/
+.mkp {
+  margin-top: 30px; /* Margen superior de 20px */
+  margin-bottom: 20px; /* Margen inferior de 20px */
+  margin-left: 40px; 
+  font-size: 35px;/* Margen izquierdo de 10px */
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0 30px; 
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 18rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+  margin-bottom: 15px;
+}
+.btn-primary2 {
+  /* Estilos específicos para los botones con la clase btn-primary2 */
+  background-color: rgb(255, 83, 141); /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border-radius: 8px; /* Radio de borde */
+  padding: 12px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.btn-primary2:hover {
+  background-color: rgb(255, 38, 110); /* Color de fondo al pasar el ratón */
+}
+/*!--Marcas---*/
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.alphabet-index {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.alphabet-index a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #555;
+  margin: 0 10px;
+}
+
+.alphabet-index a:hover {
+  color: #000;
+}
+
+.section-title {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.brand-list {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex; 
+  margin-bottom: 30px;/* Mostrar elementos en línea como flexbox */
+}
+
+/* Estilos para cada ítem de la lista de marcas */
+.brand-item {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.brand-item:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 938px) {
+  .alphabet-index {
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+}

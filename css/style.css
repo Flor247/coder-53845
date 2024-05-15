@@ -190,6 +190,7 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    margin-bottom: 30px;
 }
 
 .elegidos {
@@ -198,6 +199,7 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    margin-bottom: 30px;
 }
 
 .ofertas {
@@ -206,6 +208,7 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    margin-bottom: 30px;
 }
 
 .recompensas {

@@ -349,3 +349,10 @@
         padding-right: 15px;
     }
 }
+
+@media screen and (max-width: 938px) {
+    .alphabet-index {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  }

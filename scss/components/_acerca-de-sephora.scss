@@ -11,68 +11,118 @@
         padding: 0;
         margin: 0;
 
-        .acerca {
-            color: #fff;
-            text-align: left;
-            font-size: 60px;
-            margin-left: 30px;
-            margin-top: 50px;
-        }
+        section {
+            nav.navbar.navbar-expand-lg.navbar-color {
+                font-family: sans-serif;
+                background-color: $color-principal;
 
-        .seccionh {
-            display: flex;
-            flex-direction: column;
+                .container-fluid {
+                    a.navbar-brand {
+                        img {
+                            width: 190px;
+                            height: 190px;
+                            margin-bottom: -60px;
+                            margin-top: -60px;
+                            margin-left: 10px;
+                        }
+                    }
 
-            .image-container {
-                width: 100%;
-                overflow: hidden;
-                margin-top: 20px;
-                margin-bottom: 15px;
-                
+                    .collapse.navbar-collapse#navbarSupportedContent {
+                        ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+                            li.nav-item {
+                                a.nav-link {
+                                    font-size: 20px;
+                                    color: black;
+                                }
+                            }
+                        }
 
-                img {
-                    width: 100%;
-                    height: auto;
-                    margin-left: 0px;
+                        form.d-flex {
+
+
+                            button.btn.btn-custom {
+                                color: rgb(10, 10, 10);
+                                background-color: rgb(255, 255, 255);
+                                border-radius: 6px;
+                                padding: 6px;
+                                border: 1px solid rgb(8, 8, 8);
+
+                                &:hover {
+                                    background-color: rgba(0, 0, 0, 0.994);
+                                    color: white;
+                                }
+                            }
+
+                        }
+                    }
                 }
             }
         }
     }
 
-    main {
-        width: 100%;
-        padding: 0;
-        margin: 0;
+    .acerca {
+        color: #fff;
+        text-align: left;
+        font-size: 60px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
 
-        .seccionm {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 20px;
+    .seccionh {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
 
-            .text-container {
-                padding: 70px;
-                background-color: white;
+        .image-container {
+            width: 100%;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-bottom: 15px;
 
-                .custom-paragraph {
-                    font-size: 30px;
-                    font-weight: bold;
-                    color: #090909;
-                    text-align: justify;
-                    padding-left: 100px;
-                    padding-right: 100px;
-                    font-weight: bold;
-                }
-            }
 
-            .image-container {
+            img {
                 width: 100%;
-                overflow: hidden;
-                margin-top: 20px;
+                height: auto;
+                margin-left: 0px;
+            }
+        }
+    }
+}
 
-                img {
-                    width: 100%;
-                    height: auto;
-                }
+main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .seccionm {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        .text-container {
+            padding: 70px;
+            background-color: white;
+
+            .custom-paragraph {
+                font-size: 30px;
+                font-weight: bold;
+                color: #090909;
+                text-align: justify;
+                padding-left: 100px;
+                padding-right: 100px;
+                font-weight: bold;
+            }
+        }
+
+        .image-container {
+            width: 100%;
+            overflow: hidden;
+            margin-top: 20px;
+
+            img {
+                width: 100%;
+                height: auto;
+                margin-left: 0px;
             }
         }
     }
